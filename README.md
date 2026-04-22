@@ -1,13 +1,13 @@
 --START
 This is a example template, which you can use. Version 1.0.
 --END
-# Project Title
+# JyväsPolut
 
-Simple overview of use/purpose.
+Helping people find naturetrails.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+To show and visualise naturetrails around Jyväskylä.
 
 ## Getting Started
 
