@@ -1,1 +1,5 @@
-<h1>Projekti ryhmä2</h1>
+<script lang="ts">
+	import KorttiGrid from '$lib/KorttiGrid.svelte';
+</script>
+
+<KorttiGrid />
