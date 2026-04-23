@@ -68,7 +68,7 @@ _Projektin viikkopalaveri pidetään viikon päättyessä sovitussa paikassa. Pa
 
 ### Kommunikointitavat
 
-_Projekti kommunikoi paikanpäällä sekä Slackissa._
+_Projekti kommunikoi paikanpäällä sekä Slackissa. Sen lisäksi Slackissa kanava, johon tulee Githubista kaikki commitit._
 
 ### Dokumentointi
 
