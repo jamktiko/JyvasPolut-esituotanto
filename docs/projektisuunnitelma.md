@@ -18,15 +18,15 @@
 
 ## Projektin tiedot
 
-\<Projektin nimi>
+Projektin nimi: Jyväspolut
 
 Tekijät:
-
+Jami Salonen, Venla Nuutinen, Sami Kemppainen
 ## Projektin sisältö
 
 ### Kuvaus
 
-_Lyhyt kuvaus projektista. Minkälaista ohjelmistoa ollaan tekemässä?_
+_Teemme ohjelmiston, joka antaa helpon tavan löytää luontopolkuja Jyväskylän alueelta._
 
 ### Projektiryhmä
 
@@ -34,21 +34,21 @@ _Ketä projektiin kuuluu ja mitkä ovat henkilöiden päävastuut._
 
 | Nimi           | Vastuurooli          |
 | -------------- | -------------------- |
-| Teppo Virtanen | Git-päällikkö        |
-| Satu Jokinen   | Dokumentti-päällikkö |
-
+| Jami Salonen | Dokumentti-päällikkö        |
+| Venla Nuutinen   | Tehtävä päällikkö, Julkaisu/laadunhallinta-päällikkö |
+| Sami Kemppainen | Git-päällikkö |
 ### Tavoite
 
-_Mikä on ohjelmistoprojektin tavoiteltu lopputulos?_
+_Toimiva ja helppokäyttöinen ohjelmisto, joka tekee sen mitä haluttiin alunperin toteuttaa._
 
 ## Aikataulu
 
-_Kirjaa tähän lukuun aikataulu. Millä tavoin projekti viedään läpi. Voitte itse päättää mikä taso on teidän projektillenne paras._
+
 
 | Tapahtuma        | Päivämäärä | Muut tiedot/osanottajat                  |
 | ---------------- | ---------- | ---------------------------------------- |
-| Projekti alkaa   | 22.04.2025 | Ohjelmistoprojekti 1 alkaa               |
-| Idean valinta    | 24.04.2025 | Valitaan tuotantoon menevä projekti-idea |
+| Projekti alkaa   | 20.04.2026 | Ohjelmistoprojekti 1 alkaa               |
+| Idean valinta    | 22.04.2026 | Idea valittu |
 | ............     | pvm        | Kaikki muut tapahtumat listattuna        |
 | Projekti päättyy | 16.05.2025 | Ohjelmistoprojekti 1 päättyy             |
 
@@ -56,34 +56,42 @@ _Kirjaa tähän lukuun aikataulu. Millä tavoin projekti viedään läpi. Voitte
 
 ### Raportointi
 
-_Kuinka projekti raportoi toiminnastaan? Kuka raportoi, kenelle, ja milloin?_
+_Tiimi raportoi sisäisesti tekemistään, päivän päätteksi katsaus tehdyistä asioista, saavutettiinko päiväkohtaiset tavoitteet, suunnitelma seuraavalle päivälle._
 
 ### Tuntikirjaukset
 
-_Kuinka projekti tekee tuntikirjausta? Missä se tehdään, ja miten se jaetaan?_
+_Jokainen pitää huolen omista tuntikirjauksistaan, yhteisessä viikkoraportissa käydään läpi jokaisen tuntitilanne ja miten projektia ollaan edistetty._
 
 ### Palaverikäytänteet
 
-_Projektin viikkopalaveri pidetään xxx paikassa xxx. Kuka kirjoittaa palaveripöytäkirjan, ja missä ne elävät?_
+_Projektin viikkopalaveri pidetään viikon päättyessä sovitussa paikassa. Palaverin alussa päätetään kirjanpitäjä. Slackissa oma kanava, johon päivitetään viikkoraportit._
 
 ### Kommunikointitavat
 
-_Mitkä ovat projektin kommunikointikanavat? Viralliset, epäviralliset? Sisäiset, ulkoiset?_
+_Projekti kommunikoi paikanpäällä sekä Slackissa._
 
 ### Dokumentointi
 
-_Kirjaa tähän miten projekti on ajatellut työnsä dokumentoida. Mitä dokumentteja projekti tuottaa?_
+_Viikkoraporttiin kirjataan tarkasti viikkokohtaisesti projektin eteneminen._
 
 ### Dokumenttien hallinta
 
-_Kuvaa dokumenttien säilytys; kenellä on oikeudet dokumenttien hallintaan, miten backupit on hoidettu, kuinka dokumentteja versioidaan (esim. 1.0, 1.1, 1.2 jne.) ja nimetään (onko esim. dokumentin nimessä versionumero)._
+_Viikkoraportit tallennetaan sekä .docx sekä .pdf muotoisinä, .pdf muotoinen rapotti laitetaan Slackiin, jotta raportti säilyy samana. Valmis sovellus versioidaan 1.0, ja siitä korjukset järjestyksessä muodossa 1.1, 1.2. Varmuuskopiot hoidetaan jokaisen viikon päätteeksi pilveen ja jokaiselle varmuuskopiolle myös versiomerkintä._
 
 ## Riskien hallinta
 
-_Kuvaa tässä kuinka projekti aikoo hallinnoida ja seurata projektiriskejä._
 
 Esimerkiksi näin.
 
-| Riskit                                                       | Todennäköisyys | Impakti | Minimointi                             |
-| ------------------------------------------------------------ | -------------- | ------- | -------------------------------------- |
-| Työntekijät eivät ole motivoituneita ja eivät saavu paikalle | Pieni          | Suuri   | Pidetään työpaikalla kahvia ja pullaa. |
+
+
+
+
+
+
+| Riskit                                                         | Todennäköisyys | Impakti | Minimointi                                                                 |
+|----------------------------------------------------------------|----------------|--------|-----------------------------------------------------------------------------|
+| Työntekijät eivät ole motivoituneita                           | Pieni          | Suuri  | Kommunikoidaan ja pidetään huoli, että kaikilla työmäärä on siedettävä     |
+| Laitteet ja oheislaitteet eivät ole mukana                    | Pieni          | Suuri  | Huolehditaan, että kaikki tarvittavat välineet ovat mukana                 |
+| Sairastuminen                                                  | Pieni          | Suuri  | Tehdään kotona etänä minkä pystyy ja korvataan tunnit                      |
+| Kommunikointi projektiin liittyen jää liian vähäiseksi        | Pieni          | Suuri  | Jokainen päivittelee omalta osaltaan tilanteesta. Pidetään päivittäiset tilannekatsaukset |
