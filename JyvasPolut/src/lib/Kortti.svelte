@@ -3,14 +3,14 @@
 		id: number;
 		title: string;
 		desc: string;
-		kuva: string;
+		kuva: string[];
 	}
 
 	let { id, title, kuva, desc }: Props = $props();
 </script>
 
 <div class="card">
-	<img class="card-image" src={kuva} alt={title} />
+	<img class="card-image" src={kuva[0]} alt={title} />
 	<div class="card-content">
 		<h2>Paikka {id}: {title}</h2>
 		<p>{desc}</p>

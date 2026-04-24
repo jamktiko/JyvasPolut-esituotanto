@@ -5,11 +5,32 @@
 		nimi: string;
 		desc: string;
 		title: string;
-		kuva: string | null;
+		kuva: string[] | null;
 		hideProduct: () => void;
 	}
 
 	let { nimi, desc, kuva, hideProduct }: Props = $props();
+	let kuvaIndex = $state(0);
+	let nykyinenKuva: string | null = $derived(kuva ? kuva[kuvaIndex] : null);
+
+	function selaaKuviaEteen() {
+		if (kuva && kuva.length > 0) {
+			if (kuvaIndex < kuva?.length - 1) {
+				kuvaIndex++;
+			} else {
+				kuvaIndex = 0;
+			}
+		}
+	}
+	function selaaKuviaTaakse() {
+		if (kuva && kuva.length > 0) {
+			if (kuvaIndex > 0) {
+				kuvaIndex--;
+			} else {
+				kuvaIndex = kuva.length - 1;
+			}
+		}
+	}
 </script>
 
 <Modal>
@@ -17,13 +38,14 @@
 		<h1>{nimi}</h1>
 	{/snippet}
 
-	<!-- muut tiedot default-osaan, tähän ei tarvitse tehdä muutoksia -->
 	<p>{desc}</p>
 	<div class="moreinfo">
 		<div class="details">{desc}</div>
 		<div class="image">
-			{#if kuva}
-				<img src={kuva} alt={desc} />
+			{#if nykyinenKuva}
+				<button onclick={selaaKuviaTaakse}>&lt</button>
+				<img src={nykyinenKuva} alt={desc} height="200px" width="300px" />
+				<button onclick={selaaKuviaEteen}>&gt;</button>
 			{:else}
 				<div class="placeholderimg">👁️‍🗨️</div>
 			{/if}
