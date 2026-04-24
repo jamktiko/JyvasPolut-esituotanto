@@ -76,7 +76,7 @@ _Viikkoraporttiin kirjataan tarkasti viikkokohtaisesti projektin eteneminen._
 
 ### Dokumenttien hallinta
 
-_Viikkoraportit tallennetaan sekä .docx sekä .pdf muotoisinä, .pdf muotoinen rapotti laitetaan Slackiin, jotta raportti säilyy samana. Valmis sovellus versioidaan 1.0, ja siitä korjukset järjestyksessä muodossa 1.1, 1.2. Varmuuskopiot hoidetaan jokaisen viikon päätteeksi pilveen ja jokaiselle varmuuskopiolle myös versiomerkintä._
+_Viikkoraportit tallennetaan sekä .docx sekä .pdf muotoisinä, .pdf muotoinen rapotti laitetaan Slackiin, jotta raportti säilyy samana. Valmis sovellus versioidaan 1.0, ja siitä korjukset järjestyksessä muodossa 1.1, 1.2. Varmuuskopiot hoidetaan jokaisen päivän päätteeksi pilveen ja jokaiselle varmuuskopiolle myös versiomerkintä._
 
 ## Riskien hallinta
 
