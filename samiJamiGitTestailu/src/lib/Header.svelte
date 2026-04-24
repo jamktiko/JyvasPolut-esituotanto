@@ -16,7 +16,7 @@
 		height: 12em;
 		text-shadow: 2px 2px 2px rgba(230, 230, 230, 0.5);
 		box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
-		/* background-color: rgb(171, 187, 169); */
+		background: linear-gradient(to right, #0F172A, #113139, #134E4A);
 		padding: 0;
 	}
 	h1 {
