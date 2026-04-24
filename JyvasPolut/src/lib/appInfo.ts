@@ -1,4 +1,4 @@
 export const appi = {
-  name: 'JyvasPolut',
+  name: 'JyväsPolut',
   cr: 'Opiskelijat'
 }
