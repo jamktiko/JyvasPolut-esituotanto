@@ -19,10 +19,12 @@
 
 <style>
 	.card {
+		margin-top:auto;
+		width: 300px;
 		border-radius: 16px;
 		overflow: hidden;
-		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-		background: white;
+		box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.25);
+		background: linear-gradient(to right, #0F172A, #022C22);
 		transition: transform 0.2s ease;
 	}
 

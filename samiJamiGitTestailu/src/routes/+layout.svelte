@@ -16,6 +16,8 @@
 </main>
 <Footer text={appi.cr} />
 
+
+
 <style>
 	.content {
 		padding-bottom: 2.5em; /* footerin korkeus */
@@ -23,9 +25,13 @@
 	:global(html, body) {
 		margin: 0;
 		padding: 0;
+		margin: 0;
+ 		 min-height: 100vh;
+ 		 background: linear-gradient(to right, #0F172A, #022C22);
 	}
 
 	:global(*) {
 		box-sizing: border-box;
 	}
+	
 </style>
