@@ -1,6 +1,3 @@
---START
-This is a example template, which you can use. Version 1.0.
---END
 # JyväsPolut
 
 Helping people find naturetrails.
@@ -31,12 +28,10 @@ code blocks for commands
 
 ## Help
 
-Any advise for common problems or issues.
-
-After you pull the app from Github -> -npm install
+After you pull the app from Github ->
 
 ```
-command to run if program contains helper info
+npm install
 ```
 
 ## Authors
